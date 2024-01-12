@@ -1,7 +1,8 @@
-const enviarBt = document.getElementById("pick");
+const cancelado = document.getElementById('cancelar');
 
-enviarBt.addEventListener('click', carro);
+cancelado.addEventListener('mouseover', cancelBt);
 
-function carro(){
-    alert('Vamos para casa');
+function cancelBt(){
+    alert('Arquivo cancelado com sucesso');
 }
+
