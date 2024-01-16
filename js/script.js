@@ -1,6 +1,6 @@
 const cancelado = document.getElementById('cancelar');
 
-cancelado.addEventListener('click', cancelBt);
+cancelado.addEventListener('mouse', cancelBt);
 
 function cancelBt(){
     alert('Arquivo cancelado com sucesso');
